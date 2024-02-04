@@ -20,17 +20,17 @@ function App() {
     <div className="App">
       <h1 style={{ color: "green" }}>Call REST API</h1>
       <center>
-      <div
-              style={{
-                width: "15em",
-                backgroundColor: "#35D841",
-                padding: 2,
-                borderRadius: 10,
-                marginBlock: 10,
-              }}
-            >
-              <p style={{ fontSize: 20, color: 'white' }}>{data.userName}</p>
-            </div>
+        <div
+          style={{
+            width: "15em",
+            backgroundColor: "#35D841",
+            padding: 2,
+            borderRadius: 10,
+            marginBlock: 10,
+          }}
+        >
+          <p style={{ fontSize: 20, color: 'white' }}>{data.userName}</p>
+        </div>
       </center>
     </div>
   );
